@@ -1,0 +1,44 @@
+
+.footer {
+    padding: 45px 10%;
+    background-color: #020617;
+    color: white;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    color: #94a3b8;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #38bdf8;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #334155;
+    margin: 25px 0;
+}
+
+.footer-copy {
+    font-size: 14px;
+}
