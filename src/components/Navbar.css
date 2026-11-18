@@ -74,3 +74,17 @@
         display: flex;
     }
 }
+
+.profile-photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+    transition: transform 0.4s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.08);
+}

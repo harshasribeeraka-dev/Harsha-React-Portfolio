@@ -177,7 +177,7 @@
 
   // Only insert newRequire.load when it is actually used.
   // The code in this file is linted against ES5, so dynamic import is not allowed.
-  // INSERT_LOAD_HERE
+  function $parcel$resolve(url) {  url = importMap[url] || url;  return import.meta.resolve(distDir + url);}newRequire.resolve = $parcel$resolve;
 
   Object.defineProperty(newRequire, 'root', {
     get: function () {
@@ -21651,8 +21651,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _imagesJpeg = require("../assets/images.jpeg");
-var _imagesJpegDefault = parcelHelpers.interopDefault(_imagesJpeg);
+var _portfolioimgPng = require("url:../assets/portfolioimg.png");
+var _portfolioimgPngDefault = parcelHelpers.interopDefault(_portfolioimgPng);
 var _homeCss = require("./Home.css");
 function Home() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -21667,7 +21667,7 @@ function Home() {
                         children: "Hello, Welcome to my Portfolio"
                     }, void 0, false, {
                         fileName: "src/components/Home.jsx",
-                        lineNumber: 10,
+                        lineNumber: 11,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -21677,20 +21677,20 @@ function Home() {
                                 children: "Harsha Sri Beeraka"
                             }, void 0, false, {
                                 fileName: "src/components/Home.jsx",
-                                lineNumber: 15,
+                                lineNumber: 16,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Home.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "Aspiring Full-Stack Developer"
                     }, void 0, false, {
                         fileName: "src/components/Home.jsx",
-                        lineNumber: 18,
+                        lineNumber: 19,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -21698,7 +21698,7 @@ function Home() {
                         children: "I'm an MCA graduate passionate about building responsive websites and web applications. I enjoy learning new technologies and turning ideas into real-world projects."
                     }, void 0, false, {
                         fileName: "src/components/Home.jsx",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -21710,7 +21710,7 @@ function Home() {
                                 children: "View Projects"
                             }, void 0, false, {
                                 fileName: "src/components/Home.jsx",
-                                lineNumber: 32,
+                                lineNumber: 33,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -21719,40 +21719,41 @@ function Home() {
                                 children: "Contact Me"
                             }, void 0, false, {
                                 fileName: "src/components/Home.jsx",
-                                lineNumber: 36,
+                                lineNumber: 37,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Home.jsx",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Home.jsx",
-                lineNumber: 9,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "home-image",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _imagesJpegDefault.default),
-                    alt: "My Profile"
+                    src: (0, _portfolioimgPngDefault.default),
+                    alt: "My Profile",
+                    className: "profile-photo"
                 }, void 0, false, {
                     fileName: "src/components/Home.jsx",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Home.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/Home.jsx",
-        lineNumber: 8,
+        lineNumber: 9,
         columnNumber: 9
     }, this);
 }
@@ -21766,7 +21767,10 @@ $RefreshReg$(_c, "Home");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Home.css":"gNgm8","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../assets/images.jpeg":"7I67Y"}],"gNgm8":[function() {},{}],"7I67Y":[function() {},{}],"aOGfJ":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Home.css":"gNgm8","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","url:../assets/portfolioimg.png":"3fmpk"}],"gNgm8":[function() {},{}],"3fmpk":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("portfolioimg.e4cefe25.png") + "?" + Date.now();
+
+},{}],"aOGfJ":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$80ee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$80ee.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -22849,6 +22853,6 @@ $RefreshReg$(_c, "Footer");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Footer.css":"eWrmH","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eWrmH":[function() {},{}],"irmnC":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire4e47", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Footer.css":"eWrmH","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eWrmH":[function() {},{}],"irmnC":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire4e47", {}, "./", "/", "http://localhost:1234")
 
 //# sourceMappingURL=MyPortfolio.64b87d6c.js.map
